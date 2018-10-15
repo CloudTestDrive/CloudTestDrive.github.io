@@ -24,55 +24,83 @@
         <header>
           <h1>Oracle Cloud Adventure</h1>
           <p><font size="+3">Join the Oracle Cloud Adventure today!</font><br>
-            Complete a few simple labs, understand the basics of the
-            Oracle Cloud Services,<br>
-            and enter the sweepstake to win some must-have items! </p>
+            Complete a few simple labs, understand the basics of the Oracle Cloud Services, and enter the sweepstake to win some must-have items! </p>
         </header>
         <a href="#main" class="more">Learn More</a> </div>
     </section>
+
     <!-- Main -->
     <div id="main">
       <div class="inner">
         <!-- Boxes -->
         <div class="thumbnails">
+
+
+<!-- Introduction to the Adventure -->
           <div class="box"> <a href="https://youtu.be/GFPk0c_RBgg"
               class="image fit"><img src="images/picintro1.png" alt=""></a>
             <div class="inner">
               <h3>Introduction to the Adventure<br>
                 Start Here !</h3>
-              <p>Understand what you need to get started, how you can
-                compete in the adventure, and where you can get help if
-                you get stuck!<br>
-                <br>
+              <p>Understand what you need to get started, how you can the adventure, and where you can get help if you get stuck!
               </p>
-              <a href="https://youtu.be/GFPk0c_RBgg" class="button fit"
-                data-poptrox="youtube,800x400">Watch</a> </div>
+              <a href="https://youtu.be/GFPk0c_RBgg" class="button style2 fit"
+              data-poptrox="youtube,800x400">Watch the video
+              </a>
+            </div>
           </div>
-          <div class="box"> <a href="https://youtu.be/s6zR2T9vn2c"
-              class="image fit"><img src="images/trial.png" alt=""></a>
+
+
+<!-- Get your Cloud Access -->
+          <div class="box"> <a href="Trial.html" data-poptrox="iframe,800x400" class="image fit"><img src="images/trial.png" alt=""></a>
             <div class="inner">
-              <h3> Get your Cloud Access </h3>
-              <p>First you need to get access to our Cloud environments.
-                You can either get a Trial or use your corporate Cloud
-                Account. Follow the link to learn more</p>
-              <a href="Trial.html" class="button style2 fit"
-                data-poptrox="ignore">Learn more</a> </div>
+              <p></p><h3> Get your Cloud Access </h3>
+              <p>First you need to get access to our Cloud environments. You can either get a Trial or use your corporate Cloud Account. Follow the link to learn more
+              </p>
+              <button type="button" onclick="window.location.href='Trial.html'"><h3>Click to learn more</h3></button>
+            </div>
           </div>
-          <div class="box"> <a href="https://youtu.be/XJJMMqiWZC8"
-              class="image fit"><img src="images/picinf1.png" alt=""></a>
+
+
+<!-- Autonomous DW & ATP -->
+          <div class="box">
+            <a href="https://youtu.be/XJJMMqiWZC8"
+              class="image fit"> <img src="images/picDWH.png" alt="">
+            </a>
             <div class="inner">
-              <h3>Spinning up a Cloud Application Infrastructure</h3>
-              <p>Spin up your classic on-premise Application stack, as
-                Cloud Services, using a Database Cloud Instance and a
-                Weblogic Cloud Instance (JCS)</p>
-              <a href="https://youtu.be/XJJMMqiWZC8" class="button fit"
-                data-poptrox="youtube,800x400">Watch</a> <a
-href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/AppDevInfra.md"
-                class="button style2 fit" data-poptrox="ignore">Go to
-                the lab</a> </div>
+              <h3>Autonomous Datawarehouse and Autonomous Transaction processing</h3>
+              <p>Using the Autonomous services to visualize data - spinning up a ADWS and an ATP instance, then using Analytics to visualize data</p>
+                <a href="https://youtu.be/XJJMMqiWZC8" class="button style2 fit" data-poptrox="youtube,800x400">Watch the video</a>
+                <p></p>
+                <button type="button"
+                onclick="window.location.href='https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/AppDevInfra.md'">
+                <h3> Go to the Lab page </h3></button>
+
+            </div>
           </div>
-          <div class="box"> <a href="https://youtu.be/AMzcEknVLqY"
-              class="image fit"><img src="images/piccl1.png" alt=""></a>
+
+          <!-- Infrastructure -->
+                    <div class="box">
+                      <a href="https://youtu.be/XJJMMqiWZC8"
+                        class="image fit"> <img src="images/picinf1.png" alt="">
+                      </a>
+                      <div class="inner">
+                        <h3>Spinning up a Cloud Application Infrastructure</h3>
+                        <p>Spin up your classic on-premise Application stack, as Cloud Services, using a Database Cloud Instance and a Weblogic Cloud Instance (JCS)</p>
+                          <a href="https://youtu.be/XJJMMqiWZC8" class="button style2 fit" data-poptrox="youtube,800x400">Watch the video</a>
+                          <p></p>
+                          <button type="button"
+                          onclick="window.location.href='https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/AppDevInfra.md'">
+                          <h3> Go to the Lab page </h3></button>
+
+                      </div>
+                    </div>
+
+<!-- Cloud Native - Commented out for the moment, awaiting clarity on ACCS availability
+          <div class="box">
+            <a href="https://youtu.be/AMzcEknVLqY"
+              class="image fit"><img src="images/piccl1.png" alt="">
+            </a>
             <div class="inner">
               <h3>Cloud Native Development <br>
                 and CI/CD </h3>
@@ -80,24 +108,31 @@ href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/AppDevInfra
                 Developer Cloud for managing your project, and deploy to
                 Application Container Cloud</p>
               <a href="https://youtu.be/AMzcEknVLqY" class="button fit"
-                data-poptrox="youtube,800x400">Watch</a> <a
-href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/Develop.md"
+                data-poptrox="youtube,800x400"> Watch </a>
+              <a href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/Develop.md"
                 class="button style2 fit" data-poptrox="ignore">Go to
-                the lab</a> </div>
+                the lab</a>
+              </div>
           </div>
-          <div class="box"> <a href="https://youtu.be/9lNAB0-EJ5E"
-              class="image fit"><img src="images/piccon1.png" alt=""></a>
-            <div class="inner">
-              <h3>Deploying Containers on Kubernetes</h3>
-              <p>Set up a Managed Kbernetes cluster and deploy a
-                Springboot application using the CI/CD pipelines of
-                Wercker</p>
-              <a href="https://youtu.be/9lNAB0-EJ5E" class="button fit"
-                data-poptrox="youtube,800x400">Watch</a> <a
-href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/K8S/readme.md"
-                class="button style2 fit" data-poptrox="ignore">Go to
-                the lab</a> </div>
+
+-->
+
+<!-- Containers on Kubernetes  -->
+        <div class="box"> <a href="https://youtu.be/9lNAB0-EJ5E"
+            class="image fit"><img src="images/piccon1.png" alt=""></a>
+          <div class="inner">
+            <h3>Deploying Containers on Kubernetes</h3>
+            <p>Set up a Managed Kbernetes cluster and deploy a Springboot application using the CI/CD pipelines of Wercker</p>
+            <a href="https://youtu.be/9lNAB0-EJ5E" class="button style2 fit"
+              data-poptrox="youtube,800x400"> Watch the video</a>
+              <p></p>
+              <button type="button"
+              onclick="window.location.href='https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/K8S/readme.md'">
+              <h3> Go to the Lab page </h3></button>
           </div>
+         </div>
+
+
           <div class="box"> <a href="https://youtu.be/5rBf54CsxvU"
               class="image fit"><img src="images/picvb3.png" alt=""></a>
             <div class="inner">
@@ -105,12 +140,23 @@ href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/K8S/readme.
               <p>Develop "Low Code" applications using a visual
                 development environment using Visual Builder Cloud
                 Service</p>
-              <a href="https://youtu.be/5rBf54CsxvU" class="button fit"
-                data-poptrox="youtube,800x400">Watch</a> <a
+              <a href="https://youtu.be/5rBf54CsxvU" class="button style2 fit"
+                data-poptrox="youtube,800x400"> Watch the video</a>
+                <p></p>
+                <button type="button"
+                onclick="window.location.href='https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/vbcs/readme.md'">
+                <h3> Go to the Lab page </h3></button>
+                <!-- <a
 href="https://github.com/CloudTestDrive/EventLabs/blob/master/AppDev/vbcs/readme.md"
                 class="button style2 fit" data-poptrox="ignore">Go to
-                the lab</a> </div>
+                the lab</a>  -->
+               </div>
           </div>
+
+-->
+<!--
+
+
           <div class="box"> <a href="https://youtu.be/s6zR2T9vn2c"
               class="image fit"><img src="images/picint1.png" alt=""></a>
             <div class="inner">
@@ -123,10 +169,15 @@ href="https://github.com/CloudTestDrive/EventLabs/blob/master/Integration/readme
                 class="button style2 fit" data-poptrox="ignore">Go to
                 the lab</a> </div>
           </div>
+
+-->
+
         </div>
       </div>
     </div>
     <!-- Footer -->
+
+    <!--
     <footer id="footer">
       <div class="inner">
         <div class="thumbnails">
@@ -161,6 +212,8 @@ href="https://github.com/CloudTestDrive/EventLabs/blob/master/Integration/readme
             href="https://unsplash.com/">Unsplash</a>.</p>
       </div>
     </footer>
+-->
+
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
